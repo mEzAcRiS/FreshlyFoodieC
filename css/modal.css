@@ -1,0 +1,56 @@
+/* Estilos para la ventana modal */
+.modal {
+	display: none; /* Oculta la ventana modal por defecto */
+	position: fixed; /* Permite que la ventana modal se mantenga en la misma posición incluso si se desplaza la página */
+	z-index: 1; /* Coloca la ventana modal por encima de otros elementos */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* Permite desplazarse dentro de la ventana modal en caso de que su contenido sea más grande que la pantalla */
+	background-color: rgba(0,0,0,0.8); /* Establece un fondo semi-transparente */
+}
+
+/* Estilos para el contenido de la ventana modal */
+.modal-contenido {
+	background-color: #f1f1f1;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	border-radius: 5px; /* Agrega bordes redondeados */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+	width: 30%;
+}
+
+/* Estilos para el botón de cerrar */
+.cerrar {
+	color: #fff;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #333;
+	border: none;
+	border-radius: 3px;
+	padding: 1px 5px;
+	margin-top: -8px; /* Ajusta la posición del botón */
+}
+
+.cerrar:hover,
+.cerrar:focus {
+	background-color: #555;
+	cursor: pointer;
+}
+
+.ordenar-btn {
+	font-size: 18px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .ordenar-btn:hover {
+	background-color: #45a049;
+  }

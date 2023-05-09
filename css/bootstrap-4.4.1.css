@@ -62,7 +62,7 @@ img {
 .carousel-side-image {
   position:absolute;
   top: 0;
-  width: 0%;
+  width: 20%;
 }
 
 .carousel-side-image:first-of-type {
